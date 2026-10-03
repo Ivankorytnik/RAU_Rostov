@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0e170f">
+<meta name="description" content="Важные даты в истории РВАИУ, РВВКИУ РВ и РВИ РВ — интерактивная хронология училища и института.">
+<title>Важные даты — РВВКИУ РВ · РВИ РВ</title>
+<style>
+:root{--green:#0d160e;--green2:#172218;--olive:#293526;--paper:#eee7d1;--paper2:#f7f1df;--gold:#c9a75a;--gold2:#8e7137;--red:#852d2b;--ink:#20251d;--muted:#6b705f;--white:#f4f0df;--line:#cbbb8b;--shadow:0 18px 50px rgba(0,0,0,.22)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#0d160e;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.45}
+a{color:inherit;text-decoration:none}.wrap{width:min(1240px,calc(100% - 34px));margin:auto}
+.topbar{position:sticky;top:0;z-index:30;background:rgba(10,17,11,.94);color:var(--white);border-bottom:1px solid rgba(201,167,90,.33);backdrop-filter:blur(12px)}
+.top{height:74px;display:flex;align-items:center;gap:14px}.crest{width:54px;height:54px;object-fit:contain}.brand{min-width:0}.brand b{display:block;font:700 25px Georgia,serif;color:#e5d39c;letter-spacing:.04em}.brand small{color:#abb1a3;text-transform:uppercase;letter-spacing:.1em;font-size:10px}.spacer{flex:1}
+.nav{display:flex;align-items:center;gap:5px;overflow:auto}.nav a{white-space:nowrap;padding:10px 11px;color:#d4d7cb;font-size:13px;border-bottom:2px solid transparent}.nav a:hover,.nav a.active{color:#fff;border-color:var(--gold)}
+.home-btn{border:1px solid rgba(201,167,90,.55);padding:9px 12px;border-radius:9px;color:#eadcae;font-weight:700;white-space:nowrap}
+.hero{color:white;min-height:445px;display:grid;align-items:center;position:relative;overflow:hidden;border-bottom:1px solid #a4894e;background:
+linear-gradient(90deg,rgba(7,13,8,.98) 0%,rgba(7,13,8,.9) 44%,rgba(7,13,8,.58) 70%,rgba(7,13,8,.86) 100%),
+radial-gradient(circle at 80% 18%,rgba(207,172,87,.22),transparent 24rem),
+linear-gradient(135deg,#1a261a,#11170f)}
+.hero:after{content:"";position:absolute;right:-3%;bottom:-28%;width:520px;height:520px;border-radius:50%;border:1px solid rgba(201,167,90,.16);box-shadow:0 0 0 55px rgba(201,167,90,.035),0 0 0 110px rgba(201,167,90,.025)}
+.hero-inner{position:relative;z-index:2;display:grid;grid-template-columns:1fr .55fr;gap:50px;align-items:center;padding:60px 0}
+.kicker{font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#d0af62;font-size:12px;margin-bottom:12px}
+h1,h2,h3{font-family:Georgia,serif;margin:0}h1{font-size:clamp(52px,7vw,92px);line-height:.93;font-weight:500;color:#efdfaa}.hero p{font-size:18px;max-width:760px;color:#d6d9cf;margin:22px 0}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid #8f7948;background:#162218;color:#f7f2e0;padding:11px 16px;border-radius:10px;font-weight:700;cursor:pointer}.btn.gold{background:linear-gradient(135deg,#d6bb72,#a8863f);color:#15170e;border:0}
+.hero-symbols{display:flex;gap:24px;justify-content:center;align-items:center}.hero-symbols img{width:min(43%,190px);max-height:200px;object-fit:contain;filter:drop-shadow(0 9px 20px #0009)}
+.name-evolution{background:var(--paper2);border-bottom:1px solid var(--line);padding:28px 0}.name-evolution h2{font-size:29px;margin-bottom:17px}.name-flow{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.name-card{position:relative;background:#172219;color:#f1e8c8;border:1px solid #9c8045;border-radius:8px;padding:14px 8px;text-align:center;box-shadow:inset 0 0 0 3px rgba(201,167,90,.08)}
+.name-card b{display:block;color:#dfc47b;font:700 20px Georgia,serif}.name-card small{color:#c3c4b9}.name-card:not(:last-child):after{content:"›";position:absolute;right:-9px;top:50%;translate:0 -50%;color:#785f2f;font-size:28px;z-index:3}
+.page{background:
+linear-gradient(rgba(255,255,255,.15),rgba(255,255,255,.15)),
+repeating-linear-gradient(0deg,rgba(104,91,55,.025) 0,rgba(104,91,55,.025) 1px,transparent 1px,transparent 5px),
+var(--paper)}
+.controls{padding:26px 0 5px;display:flex;gap:8px;flex-wrap:wrap}.pill{border:1px solid #b7a471;background:#f7f1df;color:#514a35;border-radius:999px;padding:8px 12px;font-weight:700;cursor:pointer}.pill.active{background:#243021;color:white;border-color:#243021}
+.era{padding:39px 0 47px;border-bottom:1px solid #cabb8e}.era-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:20px}.era-title{display:flex;align-items:center;gap:12px}.era-star{color:var(--red);font-size:25px}.era h2{font-size:clamp(28px,4vw,43px);font-weight:500}.era-motto{font:italic 17px Georgia,serif;color:#846f46;white-space:nowrap}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:rgba(255,255,255,.52);border:1px solid #d0c299;border-radius:12px;overflow:hidden;box-shadow:0 7px 17px rgba(83,71,39,.07);display:flex;flex-direction:column;min-height:100%}
+.card-photo{aspect-ratio:16/9;position:relative;overflow:hidden;background:
+linear-gradient(135deg,#384336,#1b241d);display:grid;place-items:center;color:#d5c38c}.card-photo img{width:100%;height:100%;object-fit:cover;filter:saturate(.78) contrast(1.03)}.card-photo:after{content:"";position:absolute;inset:auto 0 0;height:40%;background:linear-gradient(transparent,rgba(12,17,12,.55))}
+.placeholder{font:700 44px Georgia,serif;opacity:.6}.card-body{padding:15px 16px 18px;flex:1}.date{color:var(--red);font-weight:800;font-size:13px;text-transform:uppercase;letter-spacing:.04em}.card h3{font-size:22px;margin:7px 0 8px;line-height:1.07}.card p{margin:0;color:#545948;font-size:14px}
+.tag{display:inline-block;margin-top:12px;padding:4px 8px;border-radius:999px;background:#ddd2ae;color:#5d5236;font-size:11px;font-weight:700}.source{font-size:11px;color:#77705b;margin-top:9px}.source a{text-decoration:underline}
+.quote{padding:54px 0;background:#e5ddc3}.quote-inner{display:grid;grid-template-columns:auto 1fr auto;gap:26px;align-items:center;border-block:1px solid #b8a66f;padding:28px 0}.quote-mark{font:90px Georgia,serif;color:#a9873d;line-height:.5}.quote p{font:italic clamp(22px,3vw,34px) Georgia,serif;color:#4d4738;margin:0}.quote .rocket{font-size:72px;opacity:.38}
+.cta{color:white;padding:70px 0;background:linear-gradient(90deg,rgba(7,12,8,.96),rgba(7,12,8,.62)),url("https://aif-s3.aif.ru/images/030/152/6d0c28d67f067ea19912d8b69d34d1d9.jpg") center/cover}.cta h2{font-size:clamp(38px,5vw,65px);max-width:760px;color:#ecd79b}.cta p{max-width:700px;color:#d1d7cf;font-size:17px}
+footer{background:#09110b;color:#aeb5a9;padding:30px 0;border-top:1px solid #6e5d35}.footer{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.footer b{color:#dfcf9e}
+.backtop{position:fixed;right:18px;bottom:18px;background:#19251a;color:#e4d19a;border:1px solid #877142;width:45px;height:45px;border-radius:50%;display:grid;place-items:center;box-shadow:var(--shadow)}
+@media(max-width:900px){.hero-inner{grid-template-columns:1fr}.hero-symbols{display:none}.cards{grid-template-columns:1fr 1fr}.name-flow{grid-template-columns:repeat(3,1fr)}.name-card:nth-child(3):after{display:none}.era-motto{display:none}}
+@media(max-width:600px){.top{height:66px}.crest{width:44px;height:44px}.brand b{font-size:18px}.brand small{display:none}.nav{display:none}.hero{min-height:420px}.hero-inner{padding:45px 0}.hero p{font-size:16px}.cards,.name-flow{grid-template-columns:1fr}.name-card:after{display:none!important}.era{padding:32px 0}.quote-inner{grid-template-columns:1fr}.quote-mark,.quote .rocket{display:none}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap top">
+    <img class="crest" alt="РВСН" src="https://commons.wikimedia.org/wiki/Special:FilePath/Great%20emblem%20of%20Strategic%20Rocket%20Forces%20of%20Russia.svg">
+    <div class="brand"><b>РВВКИУ РВ · РВИ РВ</b><small>Универсальный портал выпускников</small></div>
+    <div class="spacer"></div>
+    <nav class="nav"><a href="index.html">Главная</a><a href="index.html#graduates">Выпуски</a><a href="important-dates.html" class="active">Важные даты</a><a href="index.html#memorials">Памятные знаки</a><a href="index.html#memory">Память</a></nav>
+    <a class="home-btn" href="index.html">← На главную</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div>
+      <div class="kicker">История училища и института</div>
+      <h1>Важные даты</h1>
+      <p>Ключевые вехи в истории Ростовского высшего артиллерийского инженерного училища, РВВКИУ РВ и Ростовского военного института ракетных войск. Люди, события, традиции и преемственность поколений.</p>
+      <div class="hero-actions"><a class="btn gold" href="#timeline">Смотреть хронологию ↓</a><a class="btn" href="https://rvvkiu.wixsite.com/rvvkiu/vazhnye-daty" target="_blank" rel="noopener">Исторический источник ↗</a></div>
+    </div>
+    <div class="hero-symbols">
+      <img alt="Эмблема РВСН" src="https://commons.wikimedia.org/wiki/Special:FilePath/Great%20emblem%20of%20Strategic%20Rocket%20Forces%20of%20Russia.svg">
+      <img alt="Эмблема РВВКИУ РВ" src="https://static.wixstatic.com/media/12df29_a12a9c33113d492c8453aa12652d3861~mv2.jpg">
+    </div>
+  </div>
+</section>
+
+<section class="name-evolution">
+  <div class="wrap">
+    <h2>★ Эволюция названий</h2>
+    <div class="name-flow">
+      <div class="name-card"><b>РВАИУ</b><small>1951–1960</small></div>
+      <div class="name-card"><b>РВАУ</b><small>1960–1962</small></div>
+      <div class="name-card"><b>РВВКИУ</b><small>1962–1972</small></div>
+      <div class="name-card"><b>РВВУ</b><small>1972–1973</small></div>
+      <div class="name-card"><b>РВВКУ</b><small>1973–1998</small></div>
+      <div class="name-card"><b>РВИ РВ</b><small>1998–2011</small></div>
+    </div>
+  </div>
+</section>
+
+<main class="page" id="timeline">
+  <div class="wrap controls">
+    <button class="pill active" data-era="all">Все эпохи</button><button class="pill" data-era="e1">1951–1955</button><button class="pill" data-era="e2">1960–1977</button><button class="pill" data-era="e3">1977–1998</button><button class="pill" data-era="e4">1998–2011</button><button class="pill" data-era="e5">2016–2023</button>
+  </div>
+
+  <section class="era" data-era-section="e1">
+    <div class="era-head"><div class="era-title"><span class="era-star">★</span><h2>1. Становление: 1951–1955</h2></div><div class="era-motto">От идеи — к первому выпуску</div></div>
+    <div class="cards">
+      <article class="card"><div class="card-photo"><div class="placeholder">1951</div></div><div class="card-body"><div class="date">19 сентября 1951</div><h3>Создание РВАИУ</h3><p>На основании постановления Совета Министров СССР было создано Ростовское высшее артиллерийское инженерное училище — специализированный вуз для подготовки военных инженеров.</p><span class="tag">Основание</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">РАУ</div></div><div class="card-body"><div class="date">28 октября 1951</div><h3>Начало формирования</h3><p>Началось формирование первого специализированного высшего военно-учебного заведения для подготовки командно-инженерных кадров ракетных подразделений.</p><span class="tag">Формирование</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">2</div></div><div class="card-body"><div class="date">1 декабря 1951</div><h3>Первые два факультета</h3><p>Формирование училища в составе двух факультетов было в основном завершено. Начался учебный процесс по инженерно-механической и инженерно-электрической специальностям.</p><span class="tag">Учёба</span></div></article>
+      <article class="card"><div class="card-photo"><img loading="lazy" alt="Боевое знамя, иллюстрация традиций РВСН" src="https://rvsn.info/regiments/images/reg_307_003.jpg"></div><div class="card-body"><div class="date">15 мая 1952</div><h3>Боевое Красное Знамя</h3><p>Училищу вручили Боевое Красное Знамя и Грамоту Президиума Верховного Совета СССР.</p><span class="tag">Знамя</span><div class="source">Фото — иллюстрация традиции боевых знамён РВСН.</div></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">Р-1</div></div><div class="card-body"><div class="date">1953</div><h3>Радиотехнический факультет</h3><p>Создан третий, радиотехнический факультет. На территории училища построено высотное сооружение для практической работы с ракетами Р-1 и Р-2.</p><span class="tag">Факультеты</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">1955</div></div><div class="card-body"><div class="date">Май 1955</div><h3>Первый выпуск</h3><p>Состоялся первый выпуск слушателей. Дипломы и нагрудные знаки первым выпускникам вручал Маршал артиллерии М. И. Неделин.</p><span class="tag">Выпуск</span></div></article>
+    </div>
+  </section>
+
+  <section class="era" data-era-section="e2">
+    <div class="era-head"><div class="era-title"><span class="era-star">★</span><h2>2. Развитие и переименования: 1960–1977</h2></div><div class="era-motto">Больше, чем училище — школа ракетчиков</div></div>
+    <div class="cards">
+      <article class="card"><div class="card-photo"><div class="placeholder">РВАУ</div></div><div class="card-body"><div class="date">Ноябрь 1960</div><h3>Имя М. И. Неделина</h3><p>Училище получило наименование Ростовское высшее артиллерийское училище имени Главного маршала артиллерии М. И. Неделина.</p><span class="tag">Переименование</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">РВВКИУ</div></div><div class="card-body"><div class="date">Сентябрь 1962</div><h3>РВВКИУ</h3><p>Новое название — Ростовское высшее военное командно-инженерное училище имени М. И. Неделина.</p><span class="tag">Переименование</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">1967</div></div><div class="card-body"><div class="date">21 января 1967</div><h3>Военно-политический факультет</h3><p>На базе училища образован военно-политический факультет для подготовки офицеров-политработников.</p><span class="tag">Факультеты</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">★</div></div><div class="card-body"><div class="date">1967</div><h3>Памятное знамя</h3><p>За достигнутые успехи училище было награждено Памятным знаменем с оставлением его на вечное хранение как символа воинской доблести.</p><span class="tag">Награда</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">РВВУ</div></div><div class="card-body"><div class="date">Апрель 1972</div><h3>Ростовское высшее военное училище</h3><p>РВВКИУ было переименовано в Ростовское высшее военное училище имени М. И. Неделина.</p><span class="tag">Переименование</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">РВВКУ</div></div><div class="card-body"><div class="date">Май 1973</div><h3>Ростовское высшее военное командное училище</h3><p>Следующее изменение названия — РВВКУ имени М. И. Неделина.</p><span class="tag">Переименование</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">4Ф</div></div><div class="card-body"><div class="date">1977</div><h3>Создан 4-й факультет</h3><p>Создан командно-инженерный факультет №4 «Автоматизированные системы ракетных комплексов» с четырьмя специальными кафедрами.</p><span class="tag">4 факультет</span></div></article>
+    </div>
+  </section>
+
+  <section class="era" data-era-section="e3">
+    <div class="era-head"><div class="era-title"><span class="era-star">★</span><h2>3. Наука, факультеты и новая эпоха: 1977–1998</h2></div><div class="era-motto">Знания. Технологии. Ответственность.</div></div>
+    <div class="cards">
+      <article class="card"><div class="card-photo"><div class="placeholder">НИР</div></div><div class="card-body"><div class="date">1989</div><h3>Международная выставка</h3><p>Училище впервые участвовало в Международной выставке научно-технического творчества; одна из разработок была отмечена золотой медалью.</p><span class="tag">Наука</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">5Ф</div></div><div class="card-body"><div class="date">4 октября 1993</div><h3>5-й факультет</h3><p>Создан факультет «Систем управления и вычислительной техники» №5. Первый набор был проведён на базе факультета АСУ.</p><span class="tag">Факультеты</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">КБ</div></div><div class="card-body"><div class="date">13 сентября 1994</div><h3>Бюро изобретательства</h3><p>При научно-исследовательском отделе создано бюро изобретательства, усилившее прикладную научную и инженерную работу училища.</p><span class="tag">Наука</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">РВИ РВ</div></div><div class="card-body"><div class="date">Ноябрь 1998</div><h3>Ростовский военный институт ракетных войск</h3><p>Училище было переименовано в Ростовский военный институт ракетных войск. В качестве филиала ему было придано бывшее Ставропольское высшее военное инженерное училище связи.</p><span class="tag">Новая эпоха</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">Музей</div></div><div class="card-body"><div class="date">Ноябрь 1998</div><h3>Мемориальный комплекс и музей</h3><p>Открыт мемориальный комплекс памяти курсантов РАУ; в клубе института созданы галерея русских полководцев и выставочный зал музея истории и боевой славы.</p><span class="tag">Память</span></div></article>
+    </div>
+  </section>
+
+  <section class="era" data-era-section="e4">
+    <div class="era-head"><div class="era-title"><span class="era-star">★</span><h2>4. Институт РВИ РВ: 1998–2011</h2></div><div class="era-motto">Пятьдесят лет. Новая эпоха. Последний выпуск.</div></div>
+    <div class="cards">
+      <article class="card"><div class="card-photo"><div class="placeholder">50</div></div><div class="card-body"><div class="date">19 ноября 2001</div><h3>50-летие</h3><p>Институт отметил пятидесятилетие со дня образования — полвека подготовки офицеров и военных инженеров.</p><span class="tag">Юбилей</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">2003</div></div><div class="card-body"><div class="date">Март 2003</div><h3>Институт имени М. И. Неделина</h3><p>Институт получил полное наименование Ростовского военного института ракетных войск имени Главного маршала артиллерии М. И. Неделина с филиалом в Ставрополе.</p><span class="tag">Переименование</span></div></article>
+      <article class="card"><div class="card-photo"><img loading="lazy" alt="Церемониальное боевое знамя РВСН" src="https://rvsn.info/regiments/images/reg_307_003.jpg"></div><div class="card-body"><div class="date">27 апреля 2008</div><h3>Боевое Знамя нового образца</h3><p>Институту вручено Боевое Знамя нового образца — важный символ воинской преемственности и традиций.</p><span class="tag">Знамя</span><div class="source">Фото используется как тематическая иллюстрация церемониала РВСН.</div></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">ВА РВСН</div></div><div class="card-body"><div class="date">Ноябрь 2009</div><h3>В составе Военной академии РВСН</h3><p>Институт стал структурным подразделением Военной академии Ракетных войск стратегического назначения имени Петра Великого.</p><span class="tag">Реорганизация</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">58</div></div><div class="card-body"><div class="date">Июнь 2011</div><h3>Последний выпуск офицеров</h3><p>Состоялся 58-й, последний выпуск офицеров РВИ РВ.</p><span class="tag">Последний выпуск</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">29.08</div></div><div class="card-body"><div class="date">29 августа 2011</div><h3>Прощание с Боевым Знаменем</h3><p>Состоялось последнее построение личного состава и прощальный митинг. На территорию училища впервые был открыт свободный вход для выпускников и горожан.</p><span class="tag">Прощание</span></div></article>
+    </div>
+  </section>
+
+  <section class="era" data-era-section="e5">
+    <div class="era-head"><div class="era-title"><span class="era-star">★</span><h2>5. Память и преемственность: 2016–2023</h2></div><div class="era-motto">Помним. Гордимся. Продолжаем.</div></div>
+    <div class="cards">
+      <article class="card"><div class="card-photo"><div class="placeholder">65</div></div><div class="card-body"><div class="date">19 ноября 2016</div><h3>65-летие училища</h3><p>На территории бывшего училища прошли торжества, собравшие более 800 выпускников, ветеранов и гостей.</p><span class="tag">Встреча поколений</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">ННО</div></div><div class="card-body"><div class="date">Декабрь 2017</div><h3>Памяти Н. Н. Орищенко</h3><p>Открыта памятная доска Герою Советского Союза полковнику Николаю Николаевичу Орищенко.</p><span class="tag">Память</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">НМФ</div></div><div class="card-body"><div class="date">Февраль 2018</div><h3>Памяти Н. М. Фоменко</h3><p>Открыта памятная доска Герою Советского Союза полковнику Николаю Максимовичу Фоменко.</p><span class="tag">Память</span></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">СИК</div></div><div class="card-body"><div class="date">24 октября 2020</div><h3>Памяти С. И. Кретова</h3><p>Открыта мемориальная доска дважды Герою Советского Союза полковнику Степану Ивановичу Кретову.</p><span class="tag">Память</span></div></article>
+      <article class="card"><div class="card-photo"><img loading="lazy" alt="Памятник преподавателям и курсантам РАУ" src="https://aif-s3.aif.ru/images/030/152/6d0c28d67f067ea19912d8b69d34d1d9.jpg"></div><div class="card-body"><div class="date">19 ноября 2022</div><h3>Памятник преподавателям и курсантам РАУ</h3><p>В Ростове-на-Дону открыт памятник преподавателям и курсантам Ростовского артиллерийского училища — место общей памяти нескольких поколений.</p><span class="tag">Памятник</span><div class="source"><a href="https://rostov.aif.ru/society/v_rostove_ustanovili_pamyatnik_prepodavatelyam_i_kursantam-artilleristam" target="_blank" rel="noopener">Фото: АиФ Ростов-на-Дону ↗</a></div></div></article>
+      <article class="card"><div class="card-photo"><div class="placeholder">2023</div></div><div class="card-body"><div class="date">19 декабря 2023</div><h3>75-летие Н. Е. Соловцова</h3><p>Ветераны и однокурсники поздравили бывшего командующего РВСН Николая Евгеньевича Соловцова с 75-летием и провели презентацию памятной книги.</p><span class="tag">Преемственность</span></div></article>
+    </div>
+  </section>
+</main>
+
+<section class="quote"><div class="wrap quote-inner"><div class="quote-mark">“</div><p>Это не просто даты — это судьбы тысяч людей, объединённых служением Отечеству.</p><div class="rocket">↑</div></div></section>
+
+<section class="cta">
+  <div class="wrap">
+    <div class="kicker">Живая история</div>
+    <h2>История продолжается в памяти выпускников</h2>
+    <p>Сохраним вместе историю училища и института. Фотографии, документы, воспоминания и подписи к снимкам помогут восстановить события точнее и передать их следующим поколениям.</p>
+    <div class="hero-actions"><a class="btn gold" href="index.html#graduates">Найти свой выпуск</a><a class="btn" href="index.html#memorials">Памятные знаки</a></div>
+  </div>
+</section>
+
+<footer><div class="wrap footer"><div><b>РВВКИУ РВ · РВИ РВ</b><br>Универсальный портал выпускников</div><div>Источники: исторический сайт РВВКИУ РВ, материалы ветеранов и открытые публикации.</div></div></footer>
+<a class="backtop" href="#" aria-label="Наверх">↑</a>
+
+<script>
+document.querySelectorAll(".pill").forEach(btn=>btn.addEventListener("click",()=>{
+  document.querySelectorAll(".pill").forEach(x=>x.classList.remove("active"));btn.classList.add("active");
+  const era=btn.dataset.era;
+  document.querySelectorAll("[data-era-section]").forEach(sec=>sec.hidden=era!=="all"&&sec.dataset.eraSection!==era);
+  if(era!=="all") document.querySelector('[data-era-section="'+era+'"]').scrollIntoView({behavior:"smooth",block:"start"});
+}));
+</script>
+</body>
+</html>
